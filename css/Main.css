@@ -1,0 +1,168 @@
+body
+{
+    background-color: #d3e3ff;
+}
+
+
+
+
+#HomeCarousel
+{
+    width: 1100px;
+    margin: 57px auto auto;
+    border: 1px solid;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+#Info
+{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    column-count: 2;
+
+}
+
+#InfoContent
+{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid;
+    background-color: #fff28e;
+}
+
+#Info p
+{
+    text-align: center;
+}
+
+#InfoContent div
+{
+    text-align: center;
+}
+
+
+#PromoContent
+{
+    display: block;
+}
+
+#ScheduleButton
+{
+    margin: auto;
+    display: table;
+}
+
+.PicHolder
+{
+    column-count: 2;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.Bio-Info
+{
+    column-count: 2;
+    display: block;
+
+}
+
+#Bio .card
+{
+    display: block!important;
+}
+
+
+.pic
+{
+    height:  15vw;
+    display: block;
+    left: 100px;
+    position: relative;
+}
+
+.Bio-Info p
+{
+    display: inline-block;
+}
+
+
+#PhotoCarousel
+{
+    width: 850px;
+    margin: auto;
+
+}
+
+#PhotoCarousel .carousel-inner
+{
+    border: 1px solid;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+
+
+
+#Map
+{
+    width: 75vw;
+    height: 45vw;
+    position: relative;
+    margin: 30px auto auto;
+}
+
+#Map iframe
+{
+    border: 1px double;
+    width: 70vw;
+    height: 40vw;
+}
+
+#Content
+{
+    column-count: 1;
+    padding: 30px 0px;
+    background: linear-gradient(45deg, #FBA100 0%, #6C648B 60%);
+
+}
+
+#PicHolder .card
+{
+    width: 250px;
+    margin-left: 10px;
+}
+
+#Bio
+{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+
+#FQA .card .card-header h5
+{
+    overflow: hidden;
+}
+
+#CareerInfo
+{
+    width: 90%;
+    margin: auto auto 50px;
+
+}
+
+
+#Forms
+{
+    width: 90%;
+    margin: auto auto 50px;
+}
+
+#FQA
+{
+    width: 90%;
+    margin: 50px auto;
+}

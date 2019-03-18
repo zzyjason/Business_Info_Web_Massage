@@ -1,0 +1,86 @@
+header
+{
+    position: fixed;
+    background-color:#c4ffaa;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid;
+    height: fit-content;
+}
+
+#NavTitle
+{
+    color: #000;
+    position: relative;
+    max-height: 40px;
+    top: -15px;
+}
+
+#NavSubTitle
+{
+
+    color: #848484;
+    font-weight: 500;
+    font-size: 12pt;
+    display: inherit;
+    padding-left: 45px;
+}
+
+#NavTitle:hover
+{
+    color: cornflowerblue;
+}
+
+#NavBarMenu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#NavBarMenu li
+{
+    display:inline-block;
+
+    position: relative;
+    padding-left: 5px;
+
+}
+
+#NavBarMenu .active
+{
+    color: #adadad;
+}
+
+#NavBarMenu a
+{
+    color: #3d3d3d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#NavBarMenu a:hover
+{
+    color: cornflowerblue;
+}
+
+#NavBarMenu a::before
+{
+    content: '';
+    display: block;
+    height: 5px;
+
+    background: #bfd7ff;
+
+    position:absolute;
+    top: -8px;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+#NavBarMenu a:hover::before
+{
+    width:90%;
+}

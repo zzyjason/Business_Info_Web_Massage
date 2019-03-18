@@ -1,0 +1,87 @@
+#NavBarMenu a::before
+{
+    top: 5px;
+}
+
+#HomeCarousel
+{
+    width: 100%;
+}
+
+.pic
+{
+    width: 20vw;
+}
+
+#Info
+{
+    column-count: 1;
+}
+
+#InfoContent
+{
+    width: 100%;
+}
+
+.Pic
+{
+    top: 20px;
+    position: relative;
+}
+
+#PicHolder
+{
+    column-count: 1;
+}
+
+#Content
+{
+    column-count: 1;
+}
+
+#Content div
+{
+    margin-bottom: 20px;
+}
+
+
+#PhotoCarousel
+{
+    width: 100%;
+
+}
+
+#Map
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 95vw;
+    height: 61vw;
+
+}
+
+#Map iframe
+{
+    position: relative;
+    width: 99%;
+    height: 61vw;
+}
+
+#FQA
+{
+    position: relative;
+    width: 95%;
+}
+
+#CareerInfo
+{
+    width: 95%;
+}
+
+#Forms
+{
+    width: 95%;
+
+
+}
+

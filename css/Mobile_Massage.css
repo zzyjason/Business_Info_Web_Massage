@@ -1,0 +1,37 @@
+.ContentDisplay
+{
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    height: unset!important;
+
+}
+
+.ContentItem
+{
+    height: unset!important;
+    padding-bottom: 30px;
+    top: unset;
+}
+
+.ContentItem img
+{
+    width: 100%;
+    height: unset;
+
+}
+
+#NavBarMenu a::before
+{
+    top: 5px;
+}
+
+.ContentHolder
+{
+    padding-top: 30px;
+}
+
+.ContentItem h3:first-child
+{
+    padding-top: unset;
+}

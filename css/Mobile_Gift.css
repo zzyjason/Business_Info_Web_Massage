@@ -1,0 +1,47 @@
+
+.GiftContentDisplay
+{
+    column-count: 1;
+    height: unset;
+    margin-bottom: 30px;
+    /*padding-top: unset;*/
+}
+
+#FirstBlock
+{
+    margin-top: 30px;
+}
+
+.GiftItemHolder:last-child
+{
+    /*top: 30px ;*/
+    margin-top: 30px;
+    position: relative;
+}
+
+.GiftItemSelection
+{
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
+#EndBlock
+{
+    /*display: unset;*/
+    flex-direction: column;
+}
+
+#Forms
+{
+    width: 90%;
+    margin-left: 5%;
+    order: 1;
+}
+
+#EndBlockHolder
+{
+    width: 100%;
+    margin-left: unset;
+    margin-bottom: 60px;
+}

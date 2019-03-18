@@ -1,0 +1,74 @@
+#NavBarMenu a::before
+{
+    top: 5px;
+}
+
+#HomeCarousel
+{
+    width: 90vw;
+}
+
+.pic
+{
+    width: 20vw;
+}
+
+#Info div
+{
+
+}
+
+#Info
+{
+    column-count: 1;
+}
+
+#InfoContent
+{
+    position: relative;
+    bottom: 20px;
+    width: 90vw;
+    top: 30px;
+}
+
+.Pic
+{
+    top: 20px;
+    position: relative;
+}
+
+#PicHolder
+{
+    column-count: 1;
+}
+
+#Content
+{
+    column-count: 1;
+}
+
+#PhotoInner
+{
+    top: 20px;
+}
+
+#PhotoCarousel
+{
+    width: 90vw;
+    top: 30px;
+}
+
+#GoogleMap
+{
+
+    width: 95vw;
+    height: 61vw;
+
+}
+
+#GoogleMap iframe
+{
+
+    width: 94vw;
+    height: 60vw;
+}

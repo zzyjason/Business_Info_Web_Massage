@@ -1,0 +1,61 @@
+.GiftContentDisplay
+{
+    margin-top: 20px;
+    height: 150px;
+    column-count: 2;
+    column-gap: 0;
+}
+
+.GiftItemHolder
+{
+    display: block;
+    height: 90%;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    position: relative;
+    background-color: #f4e4d0;
+    border: 1px solid white;
+
+}
+
+.GiftItem
+{
+
+    height: 90%;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    position: relative;
+
+}
+
+.GiftItemSelection
+{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.GiftItemSelection table
+{
+    display: inline-block;
+}
+
+#Forms
+{
+    width: 45%;
+    margin-left: 2.5%;
+}
+
+#EndBlock
+{
+    height: unset;
+    display: flex;
+}
+
+#EndBlockHolder
+{
+    width: 50%;
+    margin-left: 2.5%;
+}
